@@ -273,3 +273,31 @@ S3:-
             Lifecycle rule is use to define actions you want amazon s3 to take during an object lifetime such as transferring the object  to another 
            class archiving them or deleting them specific period of time 
 
+
+
+
+
+29.	How can we make our bucket public ?  
+30.	How can we give public access to our bucket ?
+31.	Aws pricing factor of the S3 Service.
+32.	How can we make our object public ?
+33.	How can we configure the static website logs in s3 ?
+34.	What is CORS ?
+35.	What is S3 Inventory ?
+36.	What does it mean by Requester pays ?
+37.	What is the secondary word to Transfer acceleration ?, why we need to use this transfer acceleration ?
+
+
+
+
+AWS Cloud Trail:-
+
+
+
+
+
+38.	What is a cloud trail ?
+       •	AWS cloud trail is a web services that record activity made on your account and delivers log files to an amazon s3 bucket.
+        •	Cloud trail is mainly for auditing and CloudWatch is for performance monitoring.
+       •	The cloud trail helps you to provide visibility into user activation by recording action taken on your account 
+
