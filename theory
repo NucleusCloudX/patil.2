@@ -1,0 +1,136 @@
+Introduction:-
+1.	What is cloud computing ?
+The cloud computing is the computing services to using that storage ,databases, networking , software ,analysting the data by using internet this is payable condition
+
+2.	Deployment Model in Cloud ?
+There are four type of deployment model in cloud 
+        1 public cloud – this computing services is provided to third party by using public internet and they have provides a many services    example---- AWS , Azure
+        2 private cloud – this is set by only one organization for self use 
+         3 Hybrid cloud – the organization can be use own services as well as public services    
+
+
+3.	Service Model in Cloud ?
+ There are 5 type of service model
+•	Infrastructure as a service ( IAAS)
+•	Platform as a service ( PAAS )
+•	Software as a service ( SAAS )
+•	Anything as a service ( AAAS )
+•	Function as a service ( FAAS ) 
+
+
+4.	Architecture of Cloud Computing ?
+             The services are 3 types 
+                    1)  Infrastructure as a Service    IAAS -    This serves can be use only hardware setup   and using only infrastructure they have use O/S , Ventilation , server , storage , networks 
+                    2)   Platform as a Service  PAAS – this serves can be use hardware setup and development frame (software services ) and own application 
+                    3)   Software as a Service   SAAS –  this service can use over all  hardware as well as software setup with application 
+                            
+                  
+                              
+
+5.	AWS Global Infrastructure Count ?
+Availability Zones: AWS had over 80 Availability Zones in 25 geographic Regions around the world. Each Region consists of multiple Availability Zones to provide redundancy and fault tolerance.
+Edge Locations: AWS had more than 200 Edge Locations. These Edge Locations are used by the Amazon CloudFront content delivery network (CDN) to cache and distribute content to end-users with low latency.
+Local Zones: AWS introduced Local Zones in some metropolitan areas to provide single-digit millisecond latency to end-users. These Local Zones extend the reach of AWS services to even more locations.
+
+
+6.	Why do we use region ?
+                This design achieves the greatest possible fault tolerance and stability. When you view your resources, you see only the resources that are tied to the AWS Region that you specified.
+                 The using region because one region data forwarding  , storage, handling  as well as charges  and many thing and data separating are very easy    
+
+
+7.	What is service ? & What are resources ?
+            Servies – they have intangible good that is produced and consumed simultaneously  and including the many resources in one service 
+            Resources – the resources have you can work with the service part for example EC2 instance , creating bucket and multiple resources 
+
+
+
+
+
+IAM:-
+
+
+1.	How many resources do we have in IAM ?
+        a.	Can be owner can create IAM  user account and they have generate keys and there password 
+        b.	In this he will be add to group and  create a group
+        c.	They provide the roles 
+        d.	And also provide the policies 
+       e.	And they have give  services and resources roles and polices
+       f.	The own custom polices he give
+                -AWS Accounts
+               -IAM Users
+              -IAM Groups
+             - IAM Roles
+             -AWS Services and Resources
+             -Customer Managed Policies
+             -Resource Policies
+
+
+
+
+
+
+2.	Deployment model in IAM ?
+3.	Identities in IAM ?
+4.	What is an IAM User ?
+
+
+5.	What is the IAM Group ?
+        Collection of IAM users and there give the specific permission to group as well attached to user  
+
+
+
+
+
+6.	What is the IAM Policy ?
+7.	Where do we attach Identity Based Policy ?
+8.	Where do we attach Resource Based Policy ?
+                 IAM polices defines permission for an action of the method that you use to perform the operation to specific services there are tow type of policy 
+                      
+             •	Identity based policy 
+                       Attach managed and inline policies to IAM identification ( user ,group , roles )
+
+                •	Resource based policy 
+                         Attache inline policies for resource
+                        The most conman example of amazon s3 bucket policies and IAM role trust  policies 
+
+           
+
+
+
+
+9.	What is the IAM Role ?
+           To the temporary access to specific services to user you give the use the IAM role   
+
+10.	Can we be able to create Policy via json code ?
+           The you wanted attached a policy to the user by json the code will you generate and past the json code bar and attached to the user 
+
+
+
+
+11.	If one user has created it by default, which permission has been assigned to that user ?
+12.	What is dominator policy ?
+
+
+
+
+
+13.	What is ARN ? What are the fields in ARN ? ( amazon resource name ) 
+                 ARN is the specific formats depends on the resource to provides  to aws it is 23 digit number and code  
+               
+                      There are six fields in ARN       
+                               Arn name : aws (provides name) : iam (service name) : (region) : (account ID ) : ( resorce ID , name )
+
+
+
+
+14.	How many types of ARN Partition ?
+                    There are three types of ARN – 1) aws – AWS regions
+                                                   2) aws-cn – china regions 
+                                                  3) aws-us-gov – AWS Govcloud (US) regions  
+
+
+
+
+15.	What are Tags ?
+        There are use the tags to identification purpose the specific services recourse
+        And tags are metadata labels attached to cloud resources to provide additional information about those resources  
