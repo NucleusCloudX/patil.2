@@ -298,6 +298,6 @@ AWS Cloud Trail:-
 
 38.	What is a cloud trail ?
        •	AWS cloud trail is a web services that record activity made on your account and delivers log files to an amazon s3 bucket.
-        •	Cloud trail is mainly for auditing and CloudWatch is for performance monitoring.
+        •	Cloud trail is mainly for auditing and CloudWatch is for performance monitoring..
        •	The cloud trail helps you to provide visibility into user activation by recording action taken on your account 
 
